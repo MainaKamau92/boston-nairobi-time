@@ -1,0 +1,37 @@
+body {
+  font-family: 'Fira Code Light';
+}
+
+.row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+.card {
+  height: 100%;
+  //width: 10rem;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.time-header {
+  font-size: 50pt;
+}
+
+.container {
+  margin-top: 15rem !important;
+}
+
+@media (max-width: 768px) {
+  .time-header {
+    font-size: 25pt;
+  }
+  .kenyan-card {
+    margin-bottom: 65px;
+  }
+}
